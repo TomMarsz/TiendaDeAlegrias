@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="../favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Tienda de Alegrías</title>
+  </head>
+
+  <body>
+    <div class="gridContainer">
+      <!-- HEADER -->
+      <div class="logo">
+        <a href="../index.html"
+          ><img
+            src="../img/logo.png"
+            alt="Logo"
+            id="arriba"
+            class="imgLogo"
+            width="300px"
+        /></a>
+      </div>
+      <header class="loginHeader header">
+        <!-- navbar -->
+        <nav class="loginNav nav">
+          <ul>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="dondeestamos.html">Donde estamos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <section class="sideNavButton">
+          <a href="login.html"
+            ><input type="button" value="Iniciar sesión" class="logInButton"
+          /></a>
+          <a href="perfil.html"
+            ><input type="button" value="Perfil" class="profileButton"
+          /></a>
+        </section>
+      </header>
+      <!-- MAIN -->
+      <main class="loginMain main">
+        <section>
+          <form action="">
+            <fieldset>
+              <legend>
+                <h1>Inicia sesión</h1>
+              </legend>
+              <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <br />
+              <div>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña" />
+              </div>
+              <br />
+              <div>
+                <input type="submit" value="Enviar" />
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+      <!-- FOOTER -->
+      <footer class="loginFooter footer">
+        <p>
+          Tienda de Alegrías | Proyecto Final Comisión 36580 | Desarrollada por
+          Tomás Mársico
+        </p>
+        <a href="#arriba"><input type="button" value="Ir Arriba" /></a>
+      </footer>
+    </div>
+  </body>
+</html>
