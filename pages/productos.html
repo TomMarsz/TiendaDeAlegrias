@@ -22,34 +22,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="../styles.css" />
     <title>Tienda de Alegrías</title>
   </head>
 
   <body>
-    <div class="gridContainer">
-      <!-- HEADER -->
-      <div class="logo">
-        <a href="../index.html"
-          ><img
-            src="../img/logo.png"
-            alt="Logo"
-            id="arriba"
-            class="imgLogo animate__animated animate__pulse"
-            width="300px"
-        /></a>
-      </div>
-      <header class="productosHeader header">
+    <!-- HEADER -->
+    <header class="container">
+      <div class="row mt-3">
+        <!-- logo -->
+        <div
+          class="col-sm-12 col-md-4 col-lg-4 col-xl-2 mt-3 text-center logo imgLogo animate__animated animate__pulse"
+        >
+          <a href="../index.html"
+            ><img src="../img/logo.png" alt="Logo" id="arriba" width="300px"
+          /></a>
+        </div>
         <!-- navbar -->
-        <nav class="productosNav nav">
+        <nav class="col-sm-12 col-md-8 col-lg-8 col-xl-10 mt-3 text-center nav">
           <ul>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="dondeestamos.html">Donde estamos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </nav>
-        <section class="sideNavButton">
+        <!-- profile button -->
+        <section class="col-12 text-center sideNavButton">
           <a href="login.html"
             ><input type="button" value="Iniciar sesión" class="logInButton"
           /></a>
@@ -57,122 +63,138 @@
             ><input type="button" value="Perfil" class="profileButton"
           /></a>
         </section>
-      </header>
-      <!-- MAIN -->
-      <main class="productosMain main">
-        <section>
-          <h1>Productos</h1>
-          <figure>
-            <figcaption><h2>Peluches de Cangrejos</h2></figcaption>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container main">
+      <section class="row">
+        <h1 class="mt-5">Productos</h1>
+        <h2 class="mt-5">Peluches de Cangrejos</h2>
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto1.jpg"
               alt="Peluches de cangrejos"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto1.jpg"
               alt="Peluches de cangrejos"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto1.jpg"
               alt="Peluches de cangrejos"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 d-lg-none mt-3">
             <img
               src="../img/producto1.jpg"
               alt="Peluches de cangrejos"
               width="300px"
               class="imgProduct"
             />
-            <img
-              src="../img/producto1.jpg"
-              alt="Peluches de cangrejos"
-              width="300px"
-              class="imgProduct"
-            />
-          </figure>
-          <figure>
-            <figcaption><h2>Cuadernos</h2></figcaption>
+          </div>
+        </div>
+        <h2 class="mt-5">Cuadernos</h2>
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto2.png"
               alt="Cuadernos"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto2.png"
               alt="Cuadernos"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mt-3">
             <img
               src="../img/producto2.png"
               alt="Cuadernos"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 d-lg-none mt-3">
             <img
               src="../img/producto2.png"
               alt="Cuadernos"
               width="300px"
               class="imgProduct"
             />
-            <img
-              src="../img/producto2.png"
-              alt="Cuadernos"
-              width="300px"
-              class="imgProduct"
-            />
-          </figure>
-          <figure>
-            <figcaption><h2>Labiales</h2></figcaption>
+          </div>
+        </div>
+        <h2 class="mt-5">Labiales</h2>
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto3.jpg"
               alt="Labiales"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto3.jpg"
               alt="Labiales"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
             <img
               src="../img/producto3.jpg"
               alt="Labiales"
               width="300px"
               class="imgProduct"
             />
+          </div>
+          <div class="col-sm-12 col-md-6 d-lg-none mt-3">
             <img
               src="../img/producto3.jpg"
               alt="Labiales"
               width="300px"
               class="imgProduct"
             />
-            <img
-              src="../img/producto3.jpg"
-              alt="Labiales"
-              width="300px"
-              class="imgProduct"
-            />
-          </figure>
-        </section>
-      </main>
-      <!-- FOOTER -->
-      <footer class="productosFooter footer">
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="row">
         <p>
           Tienda de Alegrías | Proyecto Final Comisión 36580 | Desarrollada por
           Tomás Mársico
         </p>
         <a href="#arriba"
-          ><input type="button" value="Ir Arriba" class="upButton"
+          ><input type="button" value="Ir Arriba" class="goupButton"
         /></a>
-      </footer>
-    </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
