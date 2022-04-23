@@ -22,34 +22,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- STYLESHEET -->
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Tienda de Alegrías</title>
   </head>
 
   <body>
-    <div class="gridContainer">
-      <!-- HEADER -->
-      <div class="logo">
-        <a href="../index.html"
-          ><img
-            src="../img/logo.png"
-            alt="Logo"
-            id="arriba"
-            class="imgLogo animate__animated animate__pulse"
-            width="300px"
-        /></a>
-      </div>
-      <header class="perfilHeader header">
+    <!-- HEADER -->
+    <header class="container header">
+      <div class="row mt-3">
+        <!-- logo -->
+        <div
+          class="col-sm-12 col-md-4 col-lg-4 col-xl-2 mt-3 text-center logo imgLogo animate__animated animate__pulse"
+        >
+          <a href="../index.html"
+            ><img src="../img/logo.png" alt="Logo" id="arriba" width="300px"
+          /></a>
+        </div>
         <!-- navbar -->
-        <nav class="perfilNav nav">
+        <nav class="col-sm-12 col-md-8 col-lg-8 col-xl-10 mt-3 text-center nav">
           <ul>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="dondeestamos.html">Donde estamos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </nav>
-        <section class="sideNavButton">
+        <!-- profile button -->
+        <section class="col-12 text-center sideNavButton">
           <a href="login.html"
             ><input type="button" value="Iniciar sesión" class="logInButton"
           /></a>
@@ -57,46 +63,59 @@
             ><input type="button" value="Perfil" class="profileButton"
           /></a>
         </section>
-      </header>
-      <!-- MAIN -->
-      <main class="perfilMain main">
-        <section class="">
-          <h1>Perfil</h1>
-          <figure class="profile">
-            <figcaption><h2>Nombre y Apellido</h2></figcaption>
-            <div class="profileInfo">
-              <img
-                src="../img/foto.PNG"
-                alt="Foto de Perfil"
-                class="profilePicture"
-              />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore fuga cum dolorum exercitationem velit, nam vitae
-                obcaecati ut, minima qui commodi reprehenderit quisquam?
-                Similique iusto tenetur ipsum nemo distinctio sapiente sint
-                omnis ex quae accusantium labore quod quisquam iure numquam
-                dolore delectus quam porro modi, laboriosam eveniet, molestiae
-                in! Obcaecati maiores alias fuga ea rerum nulla quaerat itaque
-                quidem voluptatem! Ducimus eveniet et praesentium minima,
-                tenetur officia. Consequuntur consectetur numquam quia
-                laudantium quam nulla ex autem sed totam deleniti, obcaecati
-                quis ullam fugiat quibusdam expedita aliquid quod nam
-                dignissimos nisi quo eveniet ab illum perferendis! Eos similique
-                alias dicta sit!
-              </p>
-            </div>
-          </figure>
-        </section>
-      </main>
-      <!-- FOOTER -->
-      <footer class="perfilFooter footer">
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container main">
+      <section class="row">
+        <h1 class="mt-5">Perfil</h1>
+        <h2 class="mt-5">Nombre y Apellido</h2>
+        <div class="row text-center">
+          <div class="col-sm-12 col-lg-6 mt-3">
+            <img
+              src="../img/foto.PNG"
+              alt="Foto de Perfil"
+              class="profilePicture"
+            />
+          </div>
+          <div class="col-sm-12 col-lg-6 mt-3">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Inventore fuga cum dolorum exercitationem velit, nam vitae
+              obcaecati ut, minima qui commodi reprehenderit quisquam? Similique
+              iusto tenetur ipsum nemo distinctio sapiente sint omnis ex quae
+              accusantium labore quod quisquam iure numquam dolore delectus quam
+              porro modi, laboriosam eveniet, molestiae in! Obcaecati maiores
+              alias fuga ea rerum nulla quaerat itaque quidem voluptatem!
+              Ducimus eveniet et praesentium minima, tenetur officia.
+              Consequuntur consectetur numquam quia laudantium quam nulla ex
+              autem sed totam deleniti, obcaecati quis ullam fugiat quibusdam
+              expedita aliquid quod nam dignissimos nisi quo eveniet ab illum
+              perferendis! Eos similique alias dicta sit!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <!-- FOOTER -->
+    <footer class="container footer">
+      <div class="row">
         <p>
           Tienda de Alegrías | Proyecto Final Comisión 36580 | Desarrollada por
           Tomás Mársico
         </p>
-        <a href="#arriba"><input type="button" value="Ir Arriba" /></a>
-      </footer>
-    </div>
+        <a href="#arriba"
+          ><input type="button" value="Ir Arriba" class="goupButton"
+        /></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
