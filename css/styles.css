@@ -2,21 +2,18 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-body{
+body {
   background-color: #b8c6db;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background-attachment: fixed ;
-}
-
+  background-attachment: fixed; }
 
 /* HEADER */
 #arriba {
   height: 200px;
-  width: 200px;
-}
+  width: 200px; }
+
 /* navbar */
 .nav {
   background-color: lightgrey;
@@ -24,108 +21,100 @@ body{
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-ul{
-  margin-top: 10px;
-}
+  justify-content: center; }
+
+ul {
+  margin-top: 10px; }
+
 nav ul li {
   list-style-type: none;
-  margin: 10px auto;
-}
+  margin: 10px auto; }
+
 nav ul li a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
-  transition: all 0.7s;
-}
+  transition: all 0.7s; }
+
 nav ul li a:hover {
-  color: rgb(255, 255, 255);
+  color: white;
   background-color: grey;
-  border-radius: 10px;
-}
-.profileButton, .logInButton, .formButton, .goupButton{
-  /* display: none; */ /*La idea es hacerlo aparecer luego del login*/
+  border-radius: 10px; }
+
+.profileButton, .logInButton, .formButton, .goupButton {
+  /* display: none; */
+  /*La idea es hacerlo aparecer luego del login*/
   margin: 1rem;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
+
 .profileButton:hover, .logInButton:hover, .formButton:hover, .goupButton:hover {
   background-color: black;
   color: white;
   border-radius: 5px;
-  transition: all 0.7s;
-}
+  transition: all 0.7s; }
 
 /* MAIN */
 h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 3rem;
   text-align: center;
-  color: black;
-}
+  color: black; }
+
 h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 1.5rem;
   text-align: center;
-  color: black;
-}
+  color: black; }
+
 p {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  color: black;
-}
+  color: black; }
 
 /* PRODUCTOS */
 .imgProduct {
   border-radius: 5%;
   opacity: 0.7;
-  border: 1px solid #3b3b58;
-}
+  border: 1px solid #3b3b58; }
+
 .imgProduct:hover {
-  opacity: 1;
-}
+  opacity: 1; }
 
 /* FORM */
 form {
-  font-family: 'Roboto', sans-serif;
-}
+  font-family: 'Roboto', sans-serif; }
+
 label,
 form input {
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem; }
 
 /* CONTACT */
-.profile{
+.profile {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-}
+  flex-direction: column; }
+
 .profileInfo p {
-  margin: 10px;
-}
+  margin: 10px; }
+
 .profilePicture {
-  height: 200px;
-}
+  height: 200px; }
 
 /* FOOTER */
 footer {
   text-align: center;
-  margin: 10px;
-}
+  margin: 10px; }
+
 .goupButton {
   margin: 10px auto;
-  padding: 0 5px;
-}
+  padding: 0 5px; }
 
 /*MEDIA QUERRIES*/
-
 /* desktop */
-@media only screen and (min-width: 1024px){
-  ul{
+@media only screen and (min-width: 1024px) {
+  ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
-  }  
-}
+    align-items: center; } }
