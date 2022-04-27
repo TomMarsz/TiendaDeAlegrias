@@ -1,0 +1,47 @@
+/* CAROUSEL */
+.carousel-item img {
+  height: 50vh;
+  border-radius: 5px;
+  opacity: 0.3;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+/* PRODUCTOS */
+.card {
+  h5 {
+    font-family: "Roboto Slab", serif;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+/* FORM */
+form {
+  .form-label {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  .formButton {
+    float: inline-end;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    a {
+      font-family: "Roboto Slab", serif;
+    }
+  }
+}
+
+/* PROFILE */
+img {
+  .profilePicture {
+    height: 100px;
+  }
+}

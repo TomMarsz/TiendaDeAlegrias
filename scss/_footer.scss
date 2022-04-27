@@ -1,0 +1,19 @@
+/* FOOTER */
+footer .row {
+  text-align: center;
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+  .goupButton {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    a {
+      font-family: "Roboto Slab", serif;
+    }
+  }
+}

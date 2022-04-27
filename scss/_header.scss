@@ -1,0 +1,45 @@
+/* HEADER */
+// navbar
+nav {
+  display: flex;
+  text-align: center;
+  ul {
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 15px;
+    li {
+      padding: 15px;
+      a {
+        font-family: "Roboto Slab", serif;
+        font-size: 1.3rem;
+        color: black;
+        &:hover {
+          color: black !important;
+        }
+      }
+    }
+  }
+}
+// logo
+#arriba {
+  height: 300px;
+  width: 300px;
+}
+// profile button
+.sideNavButton {
+  display: flex;
+  justify-content: center;
+  .logInButton,
+  .profileButton {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    a {
+      margin: 5px;
+      font-family: "Roboto Slab", serif;
+    }
+  }
+}
