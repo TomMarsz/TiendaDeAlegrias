@@ -26,8 +26,7 @@ nav {
 }
 // profile button
 .sideNavButton {
-  display: flex;
-  justify-content: center;
+  @include flex-center();
   .logInButton,
   .profileButton {
     padding: 5px;
