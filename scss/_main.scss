@@ -1,3 +1,9 @@
+h1,
+h2 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
 /* CAROUSEL */
 .carousel-item img {
   height: 50vh;
@@ -6,10 +12,24 @@
   &:hover {
     opacity: 0.7;
   }
+  @include sizes(100px, 500px);
 }
 
 /* PRODUCTOS */
 .card {
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: map-get($card-color, estandar);
+  .card-red {
+    @extend .card;
+    background-color: map-get($card-color, oferta);
+    color: map-get($card-color, estandar);
+  }
+  .card-black {
+    @extend .card;
+    background-color: map-get($card-color, vendido);
+    color: map-get($card-color, oferta);
+  }
   h5 {
     font-family: "Roboto Slab", serif;
   }
